@@ -1,19 +1,13 @@
 package game;
 
-public class Pikachu {
-    private int count = 0;
-    private String owner = null;
-    private String skills = null;
+public class Pikachu extends pokemons{
 
-    Pikachu(String owner,String skills){
-        owner = o;
-        skills = s;
+    Pikachu(String o, String s) {
+        super(o, s);
     }
-    public void setOwner(String owner){
-        owner = owner;
+    String name = "피카츄";{
+        System.out.println("name=%d\n" ,name);
     }
-    public void setSkills(String skills){
-        skills = skills;
-    }
+
 
 }

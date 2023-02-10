@@ -1,8 +1,7 @@
 package game;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
+
 public class pokemon {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
