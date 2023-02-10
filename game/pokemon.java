@@ -1,5 +1,7 @@
 package game;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 public class pokemon {
     public static void main(String[] args) {
@@ -12,7 +14,7 @@ public class pokemon {
                 System.out.println("프로그램을 종료합니다");
                 break;
             } else if (menu.equals("1")) {
-                
+
             } else {
                 System.out.println("메뉴에서 골라 주세요");
             }
